@@ -1,0 +1,30 @@
+{
+  "questions": 43,
+  "retrieval_all": {
+    "n": 43,
+    "hit@1": 0.3953488372093023,
+    "hit@5": 0.813953488372093,
+    "mrr": 0.5564599483204135
+  },
+  "retrieval_same_language": {
+    "n": 26,
+    "hit@1": 0.5,
+    "hit@5": 0.9615384615384616,
+    "mrr": 0.6788461538461538
+  },
+  "retrieval_cross_lingual": {
+    "n": 17,
+    "hit@1": 0.23529411764705882,
+    "hit@5": 0.5882352941176471,
+    "mrr": 0.369281045751634
+  },
+  "answer_score_rag": 0.7558139534883721,
+  "answer_score_no_rag": 0.6627906976744186,
+  "rag_correct_rate": 0.7209302325581395,
+  "no_rag_correct_rate": 0.627906976744186,
+  "citation_of_gold_source": 0.6857142857142857,
+  "answer_model": "qwen2.5:3b",
+  "judge_model": "llama3.1:8b",
+  "embedding_model": "bge-m3",
+  "k": 5
+}
